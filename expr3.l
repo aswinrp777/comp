@@ -1,4 +1,4 @@
-//expr3.l
+//expr3.l recognize valid identifier
 %{
 #include "y.tab.h"
 %}
@@ -42,3 +42,8 @@ if(valid)
 printf("\nIt is an identifier\n");
 }
 }
+
+/*input:
+enter enter: abc123
+enter enter: !abc123
+*/
