@@ -1,3 +1,4 @@
+//exp4 E-closure of all states of a given nfa with E transition
 #include<stdio.h>
 #include<string.h>
 
@@ -58,9 +59,10 @@ int main(){
 }
 
 
-//input1.txt
+/*input1.txt
 q0 0 q0
 q0 1 q1
 q0 e q1
 q1 1 q2
 q1 e q2
+*/
