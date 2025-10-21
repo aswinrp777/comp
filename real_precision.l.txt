@@ -1,0 +1,24 @@
+//Lex rule to find real precision
+%{
+#include <stdio.h>
+#include <string.h>
+
+int precision = 0;
+%}
+
+%%
+[0-9]+"."[0-9]+    {
+                        char *dot = strchr(yytext, '.');
+                        if (dot != NULL) {
+                            precision = strlen(dot + 1);
+                            printf("Number: %s, Precision: %d\n", yytext, precision);
+                        }
+                    }
+[0-9]+              { printf("Integer: %s, Precision: 0\n", yytext); }
+.|\n                ;   /* ignore other characters */
+%%
+
+int main() {
+    yylex();
+    return 0;
+}
