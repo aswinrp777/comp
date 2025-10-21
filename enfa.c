@@ -66,3 +66,10 @@ q0 e q1
 q1 1 q2
 q1 e q2
 */
+/*input:
+Enter the no of states: 3
+Enter the states n:
+q0
+q1
+q2
+*/
