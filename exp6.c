@@ -145,7 +145,7 @@ transitions:
 2 b 2
 start state=0
 final states=1
-final states list=2
+final states=2
 */
 
 
