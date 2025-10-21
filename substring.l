@@ -10,3 +10,8 @@ int main(){
 	yylex();
 	return 0;
 }
+
+
+/*input :
+aabcabcbbabcbbabccc
+*/
