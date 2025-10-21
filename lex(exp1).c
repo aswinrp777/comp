@@ -139,7 +139,7 @@ int main() {
 }
 
 
-//input.txt
+/*input.txt
 //Input for Lexical analyser
 /*Multi line*/
 int main() {
@@ -150,4 +150,5 @@ int main() {
     }
     printf("%d",a);
 }
+*/
 
